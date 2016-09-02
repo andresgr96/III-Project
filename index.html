@@ -4,11 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Ping Pong</title>
-
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Ping Pong</title>
   </head>
   <body>
     <div class="container">
@@ -17,14 +15,14 @@
         <h1 class="text-center">Lets PlayPing Pong!!</h1>
         <form id="form" class="text-center">
           <div class="form-group">
-            <label for="numberInput" class="text-center">Enter a number, and <em>Ping Pong</em> will count upwards to that number. Numbers divisible by 3 will be replaced with "ping", numbers divisible by 5 will be replaced with "pong", and numbers divisible by both will become "Ping Pong".</label>
-            <input type="number" class="form-control center-block" id="numberInput" placeholder="Enter a number">
+            <label for="user-input" class="text-center">Rules: If the number you entered is divisible by 3, it will be turned in to a <em>Ping</em>, if the number is divisible by 5, it will turn in to a <em>Pong</em> if the number is divisible by both 3 and 5, it will be turned in to a <em>Ping Pong!</em></label>
+            <input type="number" class="form-control center-block" id="user-input">
         </div>
         <button type="submit" class="btn btn-deafault btn-lg">Play!</button>
       </div>
       </form>
 
-      <h1 id="bigNumber" class="text-center">
+      <h1 id="main" class="text-center">
       </h1>
 
       <div class="row text-center">
@@ -45,7 +43,7 @@
       </div>
       <img src = "img/pp.jpg">
 
-      <p id="output" class="text-justify">
+      <p id="result" class="text-justify">
       </p>
       <footer class="navbar-fixed-bottom">
         <h1 class="bruhh">&copy;Copyright Andres Garcia</h1>
